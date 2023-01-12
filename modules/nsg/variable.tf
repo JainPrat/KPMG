@@ -1,13 +1,13 @@
 variable "web_subnet_id" {
- type String
+ type = string
 }
 
 variable "resource_group" {
- type String
+ type = string
  default = "testrg"
 }
 
 variable "location" {
- type String
+ type = string
  default = "northeurope"
 }
